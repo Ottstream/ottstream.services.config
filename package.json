@@ -1,6 +1,6 @@
 {
   "name": "ottstream.services.config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "OttStream config package",
   "main": "index.js",
   "scripts": {
