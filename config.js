@@ -1,4 +1,5 @@
 const Joi = require('joi');
+const path = require('path');
 const dotenv = require('dotenv').config()
 const configSchema = require('./configSchema');
 
