@@ -1,6 +1,6 @@
 const Joi = require('joi');
 const path = require('path');
-const dotenv = require('dotenv').config()
+const dotenv = require('dotenv')
 const configSchema = require('./configSchema');
 
 class Config {
