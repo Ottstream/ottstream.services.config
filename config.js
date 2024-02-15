@@ -2,10 +2,11 @@ const Joi = require('joi');
 const path = require('path');
 const dotenv = require('dotenv')
 const configSchema = require('./configSchema');
+const { Dir } = require('fs');
 
 class Config {
-  static readEnv() {
-    dotenv.config({ path: path.join(__dirname, '../../.env') });
+  static readEnv(dir) {
+    dotenv.config({ path: dir });
   }
 }
 
